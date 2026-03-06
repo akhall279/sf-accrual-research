@@ -129,7 +129,7 @@ In addition to exploring the accruals signal and plotting cumulative returns of 
 
 The second result was a relationship between earnings and accruals -- namely, that when earnings increases are accompanied by high accruals, future returns are lower. To observe this pattern, we created 5 bins each for accruals and earnings, then obtained the following double-sorted table of monthly returns:
 
-Table 2 from paper replication:
+<img src="images/AccrualsEarningsTable.jpg" width="400" height="300">
 
 ## 6. Performance Discussion
 
