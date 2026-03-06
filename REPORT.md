@@ -22,21 +22,20 @@ The goal of this project is to examine whether accrual-based measures of earning
 
 ## 2. Data Requirements
 
-Describe data dependencies.
-
 **Sources**
--  
+-  Merged Compustat/CRSP dataset
 
 **Rate of Availability**
--  
+-  Available monthly through Wharton Research Data Services (WRDS)
 
 **Inputs Required**
 -  
 
 **Preprocessing**
--  
+-  Paper replication between 1970-01-01 and 1994-12-31
+-  Only keep industrial firms
+-  When calculating accounting variables, make sure to get rid of values where average total assets is equal to 0 so as to avoid infinite values.
  
-
 ---
 
 ## 3. Approach / System Design
