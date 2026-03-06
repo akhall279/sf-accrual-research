@@ -40,15 +40,23 @@ The goal of this project is to examine whether accrual-based measures of earning
 
 ## 3. Approach / System Design
 
-Describe what was built or tested.
+**Economic Intuition**
 
-Possible topics:
+Accruals measure the difference between reported earnings and cash flows, capturing the portion of earnings that arises from accounting adjustments rather than actual cash received or paid. In practice, accruals reflect changes in working capital items such as receivables, payables, and inventories. When a firm reports high accruals, it means that a large share of its earnings is not supported by current cash flows but instead comes from accounting entries. The economic intuition behind the accrual signal is that earnings driven heavily by accruals are often less sustainable than cash-based earnings. As a result, firms with high accruals may appear more profitable in the short term but are more likely to experience declines in future performance as those accounting adjustments reverse. Conversely, firms with low accruals tend to have earnings that are more strongly supported by cash flows, making their profitability more persistent. This leads to the empirical pattern documented in the literature: high-accrual firms tend to earn lower subsequent stock returns, while low-accrual firms tend to outperform.
 
-- Conceptual idea or economic intuition  
-- Model, system, or architecture  
-- Algorithms used  
-- Design decisions  
-- Tradeoffs considered  
+**Accruals Signal**
+
+$$
+\text{Accruals} = \Delta \text{Current Assets} - \Delta \text{Current Liabilities} - \text{Depreciation}
+$$
+
+Expanded in terms of working capital accounts:
+
+$$
+\text{Accruals} = (\Delta \text{Accounts Receivable} + \Delta \text{Inventory} + \Delta \text{Other Current Assets}) 
+- (\Delta \text{Accounts Payable} + \Delta \text{Other Current Liabilities}) 
+- \text{Depreciation}
+$$
 
 ---
 
