@@ -28,9 +28,6 @@ The goal of this project is to examine whether accrual-based measures of earning
 **Rate of Availability**
 -  Available monthly through Wharton Research Data Services (WRDS)
 
-**Inputs Required**
--  
-
 **Preprocessing**
 -  Paper replication between 1970-01-01 and 1994-12-31
 -  Only keep industrial firms
