@@ -125,10 +125,7 @@ When we plotted accruals spread, we obtained the following plot:
 
 In addition to exploring the accruals signal and plotting cumulative returns of accruals spread, we attempted to replicate two other results from our primary research paper. The first is a table of summary statistics for various accounting variables (Table 1 in the paper):
 
-
-
 <img src="images/Table1.jpg" width="400" height="300">
-
 
 The second result was a relationship between earnings and accruals -- namely, that when earnings increases are accompanied by high accruals, future returns are lower. To observe this pattern, we created 5 bins each for accruals and earnings, then obtained the following double-sorted table of monthly returns:
 
