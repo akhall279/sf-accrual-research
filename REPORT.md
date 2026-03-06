@@ -12,12 +12,7 @@
 
 ## 1. Summary
 
-Provide a brief overview of:
-
-- Research or development direction  
-- Core idea or system built
-- Key conclusions, takeaways, resulting actions
-- Most important performance or success metrics
+The goal of this project is to examine whether accrual-based measures of earnings quality can predict future stock returns. Prior research provides strong evidence that firms with high accruals tend to earn lower subsequent returns. Our objective is to replicate these results using CRSP and Compustat data, evaluate the robustness of the findings, and determine whether an accruals-based signal has value for portfolio construction. Unfortunately, as has been attested by several other papers, accruals signal is mostly dead and doesn’t result in predictive power. Possible that it lives on in specific, niche markets, but that would require more research.
 
 ### Key Metrics
 
