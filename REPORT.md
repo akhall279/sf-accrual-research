@@ -70,29 +70,28 @@ sf-signal/
 │   │   ├── opt_dash.py           # Optimal portfolio dashboard (do not edit)
 │   │   └── run_backtest.py       # Run the backtest (edit config only)
 │   └── signal/
-│       └── create_signal.py      # Your signal implementation (edit this)
+│       └── create_signal.py      # Create the accruals signal
 ├── data/
 │   ├── signal.parquet            # Output: Your signal
 │   └── weights/                  # Output: Backtest weights
 └── README.md
 ```
 
-### 1. **Implement Signal** (`create_signal.py`)
-   - Customize date ranges, data columns, and calculation logic
-   - Develop your signal logic
-   - Saves signal to `data/signal.parquet`
-
-   ```bash
-   make create-signal
-   ```
-
-### 2. **View Equal-Weight Performance** (`ew_dash.py`)
+### 1. **View Equal-Weight Performance** (`ew_dash.py`)
    - Compare your signal against an equal-weight baseline
    - Analyze signal characteristics
    - Visualize signal properties and performance
 
    ```bash
    make ew-dash
+   ```
+
+### 2. **View Optimized Performance** (`opt_dash.py`)
+   - View optimized portfolio performance
+   - Analyze backtest returns, drawdowns, and metrics
+
+   ```bash
+   make opt-dash
    ```
 
 ### 3. **Run Backtest** (`run_backtest.py`)
@@ -104,12 +103,13 @@ sf-signal/
    make backtest
    ```
 
-### 4. **View Optimized Performance** (`opt_dash.py`)
-   - View optimized portfolio performance
-   - Analyze backtest returns, drawdowns, and metrics
+### 4. **Implement Signal** (`create_signal.py`)
+   - Customize date ranges, data columns, and calculation logic
+   - Develop accruals signal logic
+   - Saves signal to `data/signal.parquet`
 
    ```bash
-   make opt-dash
+   make create-signal
    ```
 
 If other than signal research, describe organization of implementation.
