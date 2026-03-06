@@ -18,9 +18,7 @@ The goal of this project is to examine whether accrual-based measures of earning
 
 | Metric | Value | Notes |
 |------|------|------|
-| Primary Metric |  |  |
-| Secondary Metric |  |  |
-| Other |  |  |
+| Primary Metric | Accruals | Calculated as change in current assets minus change in current liabilities minus depreciation |
 
 ## 2. Data Requirements
 
