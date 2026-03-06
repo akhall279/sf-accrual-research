@@ -123,7 +123,7 @@ sf-signal/
 
 When we plotted accruals spread, we obtained the following plot:
 
-![Alt text](images/my_plot.png)
+![Accrual Spread Results](images/AccrualSpreadResults.jpg)
 
 In addition to exploring the accruals signal and plotting cumulative returns of accruals spread, we attempted to replicate two other results from our primary research paper. The first is a table of summary statistics for various accounting variables (Table 1 in the paper):
 
