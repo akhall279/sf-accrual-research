@@ -1,6 +1,7 @@
 # Research Report
 
-**Project Title:**  
+**Project Title:**  Accruals Signal
+
 **Author(s):**  Sam Lundberg, Alyssa Hall, Maxwell Schmutz
 
 **Date:**  3/5/26
