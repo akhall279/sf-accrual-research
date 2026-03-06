@@ -135,11 +135,7 @@ The second result was a relationship between earnings and accruals -- namely, th
 
 ## 6. Performance Discussion
 
-Discuss:
-
-- Strengths
-- Weaknesses
-- Sensitivity to assumptions or parameters
+Based on our analysis of the accruals portfolios, dividing stocks into five bins and calculating the spread between the lowest- and highest-accrual bins reveals no clear upward trend over time. The expected “up-and-to-the-right” pattern, where low-accrual firms consistently outperform high-accrual firms, is largely absent. This lack of a persistent spread suggests that the accruals anomaly no longer provides a reliable signal, consistent with the view that the predictive power of accruals is largely dead in modern markets.
 
 ---
 
