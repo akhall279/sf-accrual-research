@@ -121,25 +121,11 @@ sf-signal/
 
 ## 5. Results / Evaluation
 
-Include relevant evidence demonstrating performance.
+Table 1 from paper replication:
 
-For signals:
+Table 2 from paper replication:
 
-- Cumulative IC table
-- Possibly quantile plots
-- Active portfolio backtest
-- Summary statistic tables
-- Other useful tables and plots
-
-Possible items:
-
-- Tables
-- Plots
-- Benchmarks
-
-Add anything useful for interpreting system behavior.
-
----
+Plot of Accruals Spread:
 
 ## 6. Performance Discussion
 
