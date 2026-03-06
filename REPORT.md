@@ -110,7 +110,7 @@ sf-signal/
    make create-signal
    ```
 
-**Overview of Code Flow**
+**Overview of create_signal.py**
 
 - Calculate accounting variables needed for accruals signal
 - Split accruals into quintiles
@@ -121,7 +121,7 @@ sf-signal/
 
 ## 5. Results / Evaluation
 
-When we plotted accruals spread, we obtained the following plot:
+When we plotted accruals spread, we obtained the following:
 
 <img src="images/AccrualsSpread.jpg" width="400" height="300">
 
@@ -151,10 +151,10 @@ One way to further investigate the accruals anomaly is to focus on specific, nic
 
 ## Appendix
 
-**Primary Research Paper**
+**Primary Research Paper:**
 “Earnings Quality and Stock Returns”
 Konan Chang, Louis K. C. Chan, Narasimhan Jegadeesh, Josef Lakonishok
 
-**Secondary Research Paper**
+**Secondary Research Paper:**
 "Settings Where the Accruals Anomaly Lives On"
 Josh Coyne, Derek Oler, Jayson Talakai
