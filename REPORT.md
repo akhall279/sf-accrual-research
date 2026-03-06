@@ -141,17 +141,20 @@ Based on our analysis of the accruals portfolios, dividing stocks into five bins
 
 ## 7. Limitations
 
-- Known issues:
-- Missing features:
-- Risks:
-- Open questions:
+To better assess the persistence of the accruals anomaly, it may be necessary to examine volatility-scaled residuals. Raw residual returns can be heavily influenced by a few highly volatile periods, which can give the false impression of abnormal returns. By scaling returns by their recent volatility, we can measure performance per unit of risk, helping to reveal whether the anomaly produces consistent abnormal returns rather than being driven by short-lived spikes in volatility. The fact that our current signal construction does not incorporate this adjustment represents a limitation of our approach.
 
 ---
 
 ## 8. Future Work
 
-Ideas for improvement or continuation:
+One way to further investigate the accruals anomaly is to focus on specific, niche segments of the market. In particular, the anomaly may persist in neglected or less-followed firms (secondary research paper, see appendix), where investors pay less attention and the accruals calculation is less widely understood. By examining these subsets, we might identify settings where accrual-based signals continue to generate predictive returns, even if the effect has largely disappeared in the broader, well-covered market.
 
--  
--  
--  
+## Appendix
+
+**Primary Research Paper**
+“Earnings Quality and Stock Returns”
+Konan Chang, Louis K. C. Chan, Narasimhan Jegadeesh, Josef Lakonishok
+
+**Secondary Research Paper**
+"Settings Where the Accruals Anomaly Lives On"
+Josh Coyne, Derek Oler, Jayson Talakai
