@@ -53,9 +53,7 @@ $$
 Expanded in terms of working capital accounts:
 
 $$
-\text{Accruals} = (\Delta \text{Accounts Receivable} + \Delta \text{Inventory} + \Delta \text{Other Current Assets}) 
-- (\Delta \text{Accounts Payable} + \Delta \text{Other Current Liabilities}) 
-- \text{Depreciation}
+\text{Accruals} = (\Delta \text{Accounts Receivable} + \Delta \text{Inventory} + \Delta \text{Other Current Assets}) - (\Delta \text{Accounts Payable} + \Delta \text{Other Current Liabilities}) - \text{Depreciation}
 $$
 
 ---
