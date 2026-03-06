@@ -60,8 +60,6 @@ $$
 
 ## 4. Code Structure
 
-If signal research:
-
 ```
 sf-signal/
 ├── src/
@@ -112,24 +110,13 @@ sf-signal/
    make create-signal
    ```
 
-If other than signal research, describe organization of implementation.
+**Overview of Code Flow**
 
-```
-Example:
-project/
-├── data/
-├── src/
-├── scripts/
-├── results/
-└── docs/
-```
-
-Explain:
-
-- Main pipeline or workflow
-- Important modules
-- Execution instructions
-
+- Calculate accounting variables needed for accruals signal
+- Split accruals into quintiles
+- Subtract lowest accruals portfolio from highest accruals portfolio (similar to Sloan's accrual anomaly paper)
+- Plot spread
+  
 ---
 
 ## 5. Results / Evaluation
