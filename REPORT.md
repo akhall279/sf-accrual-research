@@ -66,6 +66,7 @@ sf-signal/
 │   │   └── run_backtest.py       # Run the backtest (edit config only)
 │   └── signal/
 │       └── create_signal.py      # Create the accruals signal
+│       └── signal_research.ipynb # Create the accruals signal
 ├── data/
 │   ├── signal.parquet            # Output: Your signal
 │   └── weights/                  # Output: Backtest weights
@@ -98,7 +99,7 @@ sf-signal/
    make backtest
    ```
 
-### 4. **Implement Signal** (`create_signal.py`)
+### 4. **Implement Signal** (`signal_research.ipynb`)
    - Customize date ranges, data columns, and calculation logic
    - Develop accruals signal logic
    - Saves signal to `data/signal.parquet`
@@ -107,7 +108,7 @@ sf-signal/
    make create-signal
    ```
 
-**Overview of create_signal.py**
+**Overview of signal_research.ipynb**
 
 - Calculate accounting variables needed for accruals signal
 - Split accruals into quintiles
